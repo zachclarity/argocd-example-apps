@@ -5,13 +5,13 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
+  repository: stem2022/demo1:latest
   tag: 0.1
   pullPolicy: IfNotPresent
 
 service:
   type: ClusterIP
-  port: 80
+  port: 8008
 
 ingress:
   enabled: false
