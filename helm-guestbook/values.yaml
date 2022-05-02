@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: stem2022/demo1:latest
-  tag: 0.1
+  repository: stem2022/demo1
+  tag: lastest
   pullPolicy: IfNotPresent
 
 service:
