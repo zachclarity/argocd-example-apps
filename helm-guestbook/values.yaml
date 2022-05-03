@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: hub.docker.com/stem2022/demo1
+  repository: registry.hub.docker.com/stem2022/demo1
   tag: lastest
   pullPolicy: IfNotPresent
 
