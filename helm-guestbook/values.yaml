@@ -4,8 +4,14 @@
 
 replicaCount: 1
 
+registries:
+- name: Docker Hub
+  api_url: https://registry-1.docker.io
+  prefix: docker.io
+  defaultns: library
+  
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
+  repository: stem2022/demo1
   tag: lastest
   pullPolicy: IfNotPresent
 
